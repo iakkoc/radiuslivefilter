@@ -36,6 +36,5 @@ OPTIONS :
         -s --search     MAC address, username, IP address etc. to be filtered. Formats must be same as network device send.
         -t --type       Type of the radius packet to be filtered. Authentication [auth], Accounting [acct] or any. 
 		
-NOTES:
- Used on Debian 10. 
- 
+--DISCLAIMER :
+	This scipt used in my environment, use at your own risk
