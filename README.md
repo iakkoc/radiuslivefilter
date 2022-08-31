@@ -6,20 +6,10 @@ On Freeradius production environment which many logs flow, it's hard to find and
 
 The goal of this script is to print screen all authentication and accounting logs related to searched text (MAC address, username, network device IP address etc.) but not others.
 
-
---HOW IT'S WORK
-
-Stop freeradius deamon
-
-Start Freeradius deamon in debug mode (freeradius -X)
-
-read logs and print the ones related to searched text.
-
-
 --HOW to RUN
-
-1) run command "python3 radiuslivefilter.py" in installation folder.
-2) Copy or link script to bin folder, give permissons and use as a command any where in cli.
+1) You don't need to stop freeradius deamon. Script will stop it and run in debug mode.
+2) run command "python3 radiuslivefilter.py" in installation folder.
+3) Copy or link script to bin folder, give permissons and use as a command any where in cli.
 
   In command mode if you don't type any option script will show you a menu and help you to filter.
 
